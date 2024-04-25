@@ -1,6 +1,6 @@
 import { Outlet, Link } from "react-router-dom";
 import styles from "./Layout.module.css";
-import Contoso from "../../assets/Contoso.svg";
+import Contoso from "../../assets/Huron-Logo.svg";
 import { CopyRegular } from "@fluentui/react-icons";
 import { Dialog, Stack, TextField } from "@fluentui/react";
 import { useContext, useEffect, useState } from "react";
@@ -75,7 +75,7 @@ const Layout = () => {
                             aria-hidden="true"
                         />
                         <Link to="/" className={styles.headerTitleContainer}>
-                            <h1 className={styles.headerTitle}>{ui?.title}</h1>
+                            <h1 className={styles.headerTitle}>Huron</h1> 
                         </Link>
                     </Stack>
                     <Stack horizontal tokens={{ childrenGap: 4 }} className={styles.shareButtonContainer}>
