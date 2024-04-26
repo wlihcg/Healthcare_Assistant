@@ -653,7 +653,7 @@ const Chat = () => {
                                     className={styles.chatIcon}
                                     aria-hidden="true"
                                 />
-                                <h1 className={styles.chatEmptyStateTitle}>Healthcare Assistant</h1>
+                                <h1 className={styles.chatEmptyStateTitle}>Benefits Coverage Assistant</h1>
                                 <h2 className={styles.chatEmptyStateSubtitle}>This assistant is configured to help answer any of your insurance related questions</h2>
                             </Stack>
                         ) : (
